@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.link-input-section .header-link-title,
+.link-redirect-section .header-redirect-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkslateblue;
+}
+
+.main-background-container {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.main-background-container .container {
+    width: 100%;
+    max-width: 1230px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.main-background-container .container .main-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-background-container .container .main-content-wrapper .link-input-section,
+.main-background-container .container .main-content-wrapper .link-redirect-section,
+.main-background-container .container .main-content-wrapper .link-output-info-section,
+.main-background-container .container .main-content-wrapper .link-redirect-info-section {
+    min-height: 200px;
+    width: 50%;
+}
+
+.main-background-container .container .main-content-wrapper .link-input-section .create-form,
+.main-background-container .container .main-content-wrapper .link-redirect-section .redirect-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100px;
+}
+
+.main-background-container .container .main-content-wrapper .link-input-section .create-form #short_link
+.main-background-container .container .main-content-wrapper .link-redirect-section .redirect-form #long_link {
+    min-width: 280px;
+}
+
+.clear-button,
+.submit-button {
+    min-width: 140px;
+    border-radius: 25px;
+}
+
+.blue-button {
+    background-color: lightblue;
+    border-color: aqua;
+}
+
+.green-button {
+    background-color: lightgreen;
+    border-color: greenyellow;
+}
+
+.buttons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-output-info-section,
+.link-redirect-info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+  font-weight: 600;
+}
